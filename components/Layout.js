@@ -1,5 +1,5 @@
-import React from 'react';
 import Head from 'next/head';
+import react from 'react';
 
 export default function Layout({children}) {
   return (
