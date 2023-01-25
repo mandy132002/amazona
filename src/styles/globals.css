@@ -35,3 +35,7 @@ a {
     color-scheme: dark;
   }
 }
+
+.card{
+  @apply mb-5 block rounded-lg border border-gray-300 shadow-md;
+}
