@@ -6,7 +6,7 @@ export default function ProductItem({product}) {
     <div className='card flex flex-col items-center shadow-lg'>
         <div>
         <Link className='' href={`/product/${product.slug}`}>
-            <img src={product.image} alt={product.name}  className="w-42 h-96 max-w-full object-cover rounded shadow "/>
+            <img src={product.image} alt={product.name}  className="w-42 h-96 max-w-full object-cover rounded-md shadow "/>
         </Link>
         </div>
         
@@ -16,7 +16,7 @@ export default function ProductItem({product}) {
             </Link>
             <p>{product.brand}</p>
             <p>${product.price}</p>
-            <button className='primary-button bg-yellow-300 rounded-md px-3 py-2' type="button">
+            <button className='primary-button' type="button">
                 Add to cart
             </button>
         </div>
